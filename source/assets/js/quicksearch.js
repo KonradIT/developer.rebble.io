@@ -22,7 +22,7 @@
   $input.on('keyup', function (event) {
     switch (event.keyCode) {
       case 13: // ENTER
-        window.open("https://www.google.com/search?q=site:developer.rebble.io+" + $input.val, "_blank").focus();
+        window.open("https://www.google.com/search?q=site:developer.rebble.io+" + $input.val(), "_blank").focus();
       break;
     }
   });
